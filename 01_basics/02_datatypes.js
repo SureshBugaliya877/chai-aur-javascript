@@ -25,5 +25,5 @@ let temp = null
 
 console.log(typeof "suresh");
 console.log(typeof age);
-console.log(typeof null);            //*************** type = object ********************* */
+console.log(typeof null);            //*************** type = object */
 console.log(typeof undefined);
