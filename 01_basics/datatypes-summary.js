@@ -1,26 +1,24 @@
-//  Primitive
+//primitive 
 
-//  7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+// 7 types : strring , number , boolean , null , undefind , symbol , bigint
 
-const score = 100
-const scoreValue = 100.3
+let name = "suresh"
+let number = 9610238230 
+let isloggedin = false 
+let sallry = null 
+let time;
+// const id = symbol('123')
+// const anotherid = symbol('123')
 
-const isLoggedIn = false
-const outsideTemp = null
-let userEmail;
+// console.log(id === anotherid);
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
-
-console.log(id === anotherId);
-
-// const bigNumber = 3456543576654356754n
+//const bignumber = 644654654654846468494n
 
 
+// Reference (non primitive)
 
-// Reference (Non primitive)
+// array , objects , functions
 
-// Array, Objects, Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
@@ -32,6 +30,33 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//*********************************************************************** */
+
+// stack (primitive)      // heap (Non primitive)
+
+let myyotubename = "sureshbugaliya"
+
+let otheryotubename = myyotubename
+
+otheryotubename = "bugaliya087"
+
+// console.log(myyotubename);
+// console.log(otheryotubename);
+
+
+let userOne = {
+    username : "suresh",
+    userupi : "suresh@ybl"
+}
+
+let usertwo = userOne;
+
+usertwo.username = "aashish";
+
+console.log(userOne);
+console.log(usertwo);
+
