@@ -13,7 +13,7 @@ const repocount = 50
 // all string method type https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length
 
 
-const gameName = new String("sureshsb")
+const gameName = new String("suresh-sb-com")
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
@@ -24,15 +24,19 @@ const gameName = new String("sureshsb")
 // console.log(gameName.indexOf('r'));
 
 const newstring = gameName.substring( 0,4)
-console.log(newstring);
+//console.log(newstring);
 
 const anotherstring = gameName.slice(-8, 4)
-console.log(anotherstring);
+//console.log(anotherstring);
 
 const nwstringone = "    suresh     "
-console.log(nwstringone);
-console.log(nwstringone.trim());
+//console.log(nwstringone);
+//console.log(nwstringone.trim());
 
 const url = "www.https//suresh%20bugaliya.website/suresh%20bugaliya%20career"
 
-console.log(url.replaceAll('%20','-'));
+//console.log(url.replaceAll('%20','-'));
+//console.log(url.includes('suresh'));
+
+console.log(gameName.split('-'));
+
