@@ -23,4 +23,16 @@ const gameName = new String("sureshsb")
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf('r'));
 
+const newstring = gameName.substring( 0,4)
+console.log(newstring);
 
+const anotherstring = gameName.slice(-8, 4)
+console.log(anotherstring);
+
+const nwstringone = "    suresh     "
+console.log(nwstringone);
+console.log(nwstringone.trim());
+
+const url = "www.https//suresh%20bugaliya.website/suresh%20bugaliya%20career"
+
+console.log(url.replaceAll('%20','-'));
